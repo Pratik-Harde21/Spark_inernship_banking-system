@@ -25,7 +25,7 @@ if(isset($_POST['name'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $sql = "    INSERT INTO `bank_system`.`contactus` (`Name`, `Email`, `Message`) VALUES ('$name', '$email', '$message');";
+    $sql = "    INSERT INTO `aEiagWP8Ko`.`contactus` (`Name`, `Email`, `Message`) VALUES ('$name', '$email', '$message');";
 
     //Execute the query
     if($con->query($sql) == true){
