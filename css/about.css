@@ -1,0 +1,38 @@
+
+body{
+    min-height: 100vh;
+    background-color: #d9d9d9;
+}
+
+.head{
+    text-align: center;
+    align-items: center;
+    font-size: 31px;
+    margin-top: 45px;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 28%;
+    height: 551px;
+}
+.about h2{
+    text-align: center;
+}
+.left{
+    float: left;
+    width: 30%;
+    background-color: gray;
+}
+.left img{
+    width: 500px;
+    height:551px;
+}
+.right{
+    width: 30%;
+    margin-left: 89spx;
+    font-size: 25px;
+    background-color: #b4b4b4;
+}
